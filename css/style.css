@@ -160,7 +160,7 @@ h3.bg-text {
 }
 
 .lower-content h3.news-title:hover{
-	color: #1e92a9;
+	color: #ef883d !important;
 }
 
 .content h3 {
@@ -2511,7 +2511,7 @@ img{
 .main-slider .social-icons li a{
 	position:relative;
 	font-size:14px;
-	color:#37aabf;
+	color:#ef883d;
 	transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
@@ -5992,7 +5992,7 @@ p.heading-title {
 	width: 47px;
 	height: 0px;
 	margin-top: 6px;
-	border: 1px solid #37aabf;
+	border: 1px solid #ef883d;
 }
 
 .project-number {
