@@ -1,62 +1,60 @@
-.hero {
+// Banner Hero 
 
-	// About Us Hero Banner  
+.page-title{
+    position:relative;
+    padding:190px 0px 100px;
+    height: 440px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:right center;
+}
 
-	&--about-us {
-		background: url("../img/about-us-hero.png") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
+.page-title:before{
+    position:absolute;
+    content:'';
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    height: 440px;
+    background: $color-black;
+    opacity: 0.9;
+    transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
 
-	// Home Hero Banner  
 
-	&--home {
-		background: url("../img/hero-image.jpg") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
+.page-title .auto-container{
+    position:relative;
+}
 
-	// Products Hero Banner 
+.page-title h2 {
+    position:relative;
+    font-family: $font-ostd;
+    color: $color-white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
 
-	&--products {
-		background: url("../img/product-hero.png") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
-
-	// Partners Hero Banner 
-
-	&--partners {
-		background: url("../img/partner-hero.png") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
-
-	// Contacts Hero Banner 
-
-	&--contacts {
-		background: url("../img/contacts-hero.png") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
-
-	// Parts Finder Hero Banner 
-
-	&--parts-finder {
-		background: url("../img/parts-finder-hero.png") no-repeat;
-		background-size: cover;
-		height: 90vh;
-		width: 100%;
-		align-items: center;
-	}
+.page-title p {
+    position:relative;
+    font-family: $font-karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: $color-white;
+    margin-bottom: 10px;
 }
