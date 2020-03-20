@@ -10,6 +10,8 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 <!-- Font Icon -->
 <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -109,7 +111,7 @@
 
     <main>
 	    <!-- Casobe: Project Page Section -->
-		<section class="project-page-section border-line-bottom-full">
+		<section class="page-section border-line-bottom-full">
 			<div class="auto-container">
 		
 				<div class="row justify-content-center">
@@ -124,87 +126,131 @@
 		</section>
 
 	    <!-- Casobe: Project Page Section -->
-		<section class="project-page-section border-line-bottom-full">
+		<section class="page-section border-line-bottom-full">
 			<div class="auto-container">
 				
 				<div class="row justify-content-center">
-					<div class="sec-title light col-xl-7 col-lg-7 col-md-12 col-sm-12">
-						<div class="inner-column centered">
+					<div class="sec-title light col-xl-5 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column">
 							<h3 class="pt-2">Millennial Resorts</h3>
 						</div>
-						<div class="text-bold centered pt-3">Where the unreal becomes real in the palm of your hands. Millennial Resorts are perfect for those who seek unique experiences paired with innovative structures. Discover various hot spots, hidden gems, and local sounds in the Philippines, from Batangas all the way to Davao.</div>
+						<br>
+						<div class="inner-column">
+							<img src="images/Millennial Resorts 1.png" alt="">
+						</div>
+					</div>
+					<div class="sec-title light col-xl-7 col-lg-7 col-md-12 col-sm-12">
+						<div class="text-bold pt-3">Where the unreal becomes real in the palm of your hands. Millennial Resorts are perfect for those who seek unique experiences paired with innovative structures. Discover various hot spots, hidden gems, and local sounds in the Philippines, from Batangas all the way to Davao.</div>
+						<div class="text-bold pt-3">Explore everything that Crusoe Cabins, Cocoons, the Colony, Canopy, Aquaria Water Park, Aqua, BoardWalk, and the Walk have to offer today.</div>
 					</div>
 				</div>
 				
-				<div class="row justify-content-center clearfix">
-					<!-- Owl Carousel Initialize -->
-					<div class="owl-carousel owl-theme" id="owl-three-items">
+				<!-- Owl Carousel Initialize -->
+				<div class="carousel" data-flickity='{ "pageDots": false, "contain": true }'>
 
-						<!--Project Item-->
-		                <div class="shop-item col-lg-12 col-md-12 col-sm-12">
-		                	<div class="inner-box">
-		                    	<div class="image">
-		                        	<a href="#"><img src="images/projects/ml-img-1.png" alt="" /></a>
-		                            <div class="tag-brand-banner"><img src="images/crusoe-tag-brand.png" alt=""></div>
-		                            <div class="tag-banner">Accomodation</div>
-		                        </div>
-		                        <div class="lower-content centered text-left">
-									<h3 class="project-title"><a href="">Crusoe</a></h3>
-									<div class="text">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
-									<a href="" class="find-out-more">Explore</a>
-								</div>
-		                    </div>
-		                </div>
+					<!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                    	<div class="image">
+	                        	<a href="#"><img src="images/projects/ml-img-1.png" alt="" /></a>
+	                            <div class="tag-brand-banner"><img src="images/crusoe-tag-brand.png" alt=""></div>
+	                            <div class="tag-banner">Accomodation</div>
+	                        </div>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Crusoe</a></h3>
+								<div class="project-excerpt">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
+								<a href="" class="find-out-more">Explore</a>
+							</div>
+	                    </div>
+	                </div>
 
-		                <!--Project Item-->
-		                <div class="shop-item col-lg-12 col-md-12 col-sm-12">
-		                	<div class="inner-box">
-		                    	<div class="image">
-		                        	<a href="#"><img src="images/projects/ml-img-2.png" alt="" /></a>
-		                            <div class="tag-brand-banner"><img src="images/cocoons-tag-brand.png" alt=""></div>
-		                            <div class="tag-banner">Accomodation</div>
-		                        </div>
-		                        <div class="lower-content centered text-left">
-									<h3 class="project-title"><a href="">Cocoons</a></h3>
-									<div class="text">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
-									<a href="" class="find-out-more">Explore</a>
-								</div>
-		                    </div>
-		                </div>
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                    	<div class="image">
+	                        	<a href="#"><img src="images/projects/ml-img-2.png" alt="" /></a>
+	                            <div class="tag-brand-banner"><img src="images/cocoons-tag-brand.png" alt=""></div>
+	                            <div class="tag-banner">Accomodation</div>
+	                        </div>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Cocoons</a></h3>
+								<div class="project-excerpt">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
+								<a href="" class="find-out-more">Explore</a>
+							</div>
+	                    </div>
+	                </div>
 
-		                <!--Project Item-->
-		                <div class="shop-item col-lg-12 col-md-12 col-sm-12">
-		                	<div class="inner-box">
-		                    	<div class="image">
-		                        	<a href="#"><img src="images/projects/ml-img-3.png" alt="" /></a>
-		                            <div class="tag-brand-banner"><img src="images/the-colony-tag-brand.png" alt=""></div>
-		                            <div class="tag-banner">Accomodation</div>
-		                        </div>
-		                        <div class="lower-content centered text-left">
-									<h3 class="project-title"><a href="">The Colony</a></h3>
-									<div class="text">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
-									<a href="" class="find-out-more mt-5 pt-5">Explore</a>
-								</div>
-		                    </div>
-		                </div>
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                    	<div class="image">
+	                        	<a href="#"><img src="images/projects/ml-img-3.png" alt="" /></a>
+	                            <div class="tag-brand-banner"><img src="images/the-colony-tag-brand.png" alt=""></div>
+	                            <div class="tag-banner">Accomodation</div>
+	                        </div>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">The Colony</a></h3>
+								<div class="project-excerpt">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
+								<a href="" class="find-out-more mt-5 pt-5">Explore</a>
+							</div>
+	                    </div>
+	                </div>
 
-					</div>
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                    	<div class="image">
+	                        	<a href="#"><img src="images/projects/ml-img-2.png" alt="" /></a>
+	                            <div class="tag-brand-banner"><img src="images/cocoons-tag-brand.png" alt=""></div>
+	                            <div class="tag-banner">Accomodation</div>
+	                        </div>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Cocoons</a></h3>
+								<div class="project-excerpt">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
+								<a href="" class="find-out-more">Explore</a>
+							</div>
+	                    </div>
+	                </div>
+
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                    	<div class="image">
+	                        	<a href="#"><img src="images/projects/ml-img-3.png" alt="" /></a>
+	                            <div class="tag-brand-banner"><img src="images/the-colony-tag-brand.png" alt=""></div>
+	                            <div class="tag-banner">Accomodation</div>
+	                        </div>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">The Colony</a></h3>
+								<div class="project-excerpt">Sink into a personal sanctuary, heartbeats away from natural wonders, platinum sands or thriving city centres.</div>
+								<a href="" class="find-out-more mt-5 pt-5">Explore</a>
+							</div>
+	                    </div>
+	                </div>
+
 				</div>
-
 			</div>
+
 		</section>
 		<!-- End Casobe: News Page Section -->
 
 	    <!-- Casobe: Project Page Section -->
-		<section class="project-page-section style-two">
+		<section class="page-section style-two">
 			<div class="auto-container">
 				
 				<div class="row justify-content-center">
-					<div class="sec-title light col-xl-7 col-lg-7 col-md-12 col-sm-12">
-						<div class="inner-column centered">
-							<h3 class="pt-2">Dusit Princess</h3>
+					<div class="sec-title light col-xl-5 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<h3 class="pt-4">Dusit Princess</h3>
 						</div>
-						<div class="text-bold centered pt-3">Explore our selection of exclusive offers - you're sure to find the one for you. Your room is waiting, and there's so much to look forward to.</div>
+						<br>
+						<div class="inner-column">
+							<img src="images/78b459_f17d081cbace4a9aa8d06faeef560b63_mv2 1.png" alt="">
+						</div>
+					</div>
+					<div class="sec-title light col-xl-7 col-lg-7 col-md-12 col-sm-12">
+						<div class="text-bold pt-3">Where the unreal becomes real in the palm of your hands. Millennial Resorts are perfect for those who seek unique experiences paired with innovative structures. Discover various hot spots, hidden gems, and local sounds in the Philippines, from Batangas all the way to Davao.</div>
+						<div class="text-bold pt-3">Explore everything that Crusoe Cabins, Cocoons, the Colony, Canopy, Aquaria Water Park, Aqua, BoardWalk, and the Walk have to offer today.</div>
 					</div>
 				</div>
 				
@@ -328,8 +374,8 @@
                                 	<h2>Contact Us</h2>
 									<div class="widget-content">
 										<ul class="list">
-                                        	<li><a href="#"><i class="ion-android-pin"></i>&nbsp; Barangay Santa. Ana, Calatagan, Batangas</a></li>
-                                            <li><a href="#"><i class="ion-android-call"></i>&nbsp; (+63 2) 8836 5000 (+63 918) 836 5000</a></li>
+                                        	<li><a href="#"><i class="flaticon-pin"></i>&nbsp;&nbsp; Barangay Santa. Ana, Calatagan, Batangas</a></li>
+                                            <li><a href="#"><i class="flaticon-telephone"></i>&nbsp;&nbsp; (+63 2) 8836 5000 (+63 918) 836 5000</a></li>
                                         </ul>
                                     </div>
 								</div>
@@ -369,5 +415,6 @@
 	<script src="js/appear.js"></script>
 	<script src="js/scrollbar.js"></script>
 	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

@@ -3272,7 +3272,7 @@
 
 
 	$('#owl-gallery').owlCarousel({
-	    items:6,
+	    items:5,
 	    dots:false,
 	    center:true,
 	    lazyLoad:true,
@@ -3281,15 +3281,15 @@
 	    responsiveClass:true,
 		responsive:{
 		    0:{
-		        items:4,
+		        items:5,
 		        dots:true
 		    },
 		    600:{
-		        items:4,
+		        items:5,
 		        dots:true
 		    },
 		    1000:{
-		        items:6,
+		        items:5,
 		        dots:true,
 		        loop:true
 		    }
