@@ -1,0 +1,25 @@
+// Page Section 
+
+.page-section {
+  	position: relative;
+  	padding: 100px 0px 55px;
+  	background-color: $color-white;
+ 	
+ 	.service-block-three {
+  		margin-bottom:50px;
+  	}
+
+	.service-block-three .inner-box .image a:before {
+	  	background-color: $color-black;
+	}
+
+	.style-two {
+	  	background-color: $color-white;
+	}
+
+	.style-two .service-block-three .inner-box .image a:before {
+	  	background-color:#1e92a9;
+	}
+}
+
+
