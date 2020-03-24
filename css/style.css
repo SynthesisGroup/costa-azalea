@@ -289,7 +289,6 @@ a:visited {
   color: #ffffff;
   font-weight: 400;
   display: inline-block;
-  margin-top: 2rem;
   background: #ef883d;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -2078,6 +2077,10 @@ img {
 .main-slider .owl-dots .owl-dot.active span {
   background: #ef883d; }
 
+.list-flex {
+  display: flex;
+  justify-content: space-between; }
+
 .links-widget {
   position: relative; }
 
@@ -2087,6 +2090,11 @@ img {
 .links-widget .list li {
   position: relative;
   margin-bottom: 12px; }
+
+.links-widget .list-flex li {
+  display: flex;
+  position: relative;
+  margin: 0.3rem 0; }
 
 .links-widget .list li a {
   position: relative;
@@ -7500,6 +7508,12 @@ h3.sub-heading-txt {
   height: 44px;
   border-radius: 50%;
   transform: translateY(-50%); }
+
+.flaticon-pin {
+  color: #ef883d; }
+
+.flaticon-telephone {
+  color: #ef883d; }
 
 @font-face {
   font-family: 'Karla';

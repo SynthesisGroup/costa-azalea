@@ -10,6 +10,8 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 <!-- Font Icon -->
 <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -204,44 +206,42 @@
 						</div>
 					</div>
 				</div>
-				
-				<div class="row clearfix">
-					
-					<div class="owl-carousel owl-theme" id="owl-three-items">
-						<!-- News Block -->
-						<div class="service-block-three style-two col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="inner-box">
-								<a href=""><img src="images/home/thumb-1.png" alt="" /></a>
-								<div class="lower-content text-left">
-									<h3 class="news-title"><a href="">Relax</a></h3>
-									<div class="text text-left">Treat yourself to guilt-free indulgence for mind, body and soul</div>
-								</div>
+
+				<!-- Owl Carousel Initialize -->
+				<div class="carousel" data-flickity='{ "pageDots": false, "contain": true }'>
+
+					<!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                        <a href="#"><img src="images/home/thumb-1.png" alt="" /></a>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Relax</a></h3>
+								<div class="project-excerpt">Treat yourself to guilt-free indulgence for mind, body and soul</div>
 							</div>
-						</div>
-						
-						<!-- News Block -->
-						<div class="service-block-three style-two col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-							<div class="inner-box">
-								<a href=""><img src="images/home/thumb-2.png" alt="" /></a>
-								<div class="lower-content text-left">
-									<h3 class="news-title"><a href="">Sport</a></h3>
-									<div class="text text-left">Treat yourself to guilt-free indulgence for mind, body and soul</div>
-								</div>
+	                    </div>
+	                </div>
+
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                        <a href="#"><img src="images/home/thumb-2.png" alt="" /></a>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Sport</a></h3>
+								<div class="project-excerpt">Treat yourself to guilt-free indulgence for mind, body and soul</div>
 							</div>
-						</div>
-						
-						<!-- News Block -->
-						<div class="service-block-three style-two col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-							<div class="inner-box">
-								<a href=""><img src="images/home/thumb-3.png" alt="" /></a>
-								<div class="lower-content text-left">
-									<h3 class="news-title"><a href="">Food</a></h3>
-									<div class="text text-left">Treat yourself to guilt-free indulgence for mind, body and soul</div>
-								</div>
+	                    </div>
+	                </div>
+
+	                <!--Project Item-->
+	                <div class="shop-item col-lg-4 col-md-4 col-sm-12">
+	                	<div class="inner-box">
+	                        <a href="#"><img src="images/home/thumb-3.png" alt="" /></a>
+	                        <div class="lower-content centered text-left">
+								<h3 class="project-title"><a href="">Food</a></h3>
+								<div class="project-excerpt">Treat yourself to guilt-free indulgence for mind, body and soul</div>
 							</div>
-						</div>
-					</div>
-					
+	                    </div>
+	                </div>
 				</div>
 
 			</div>
@@ -395,7 +395,7 @@
             	<div class="row clearfix">
                 	
                     <!--big column-->
-                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="row clearfix">
                         
                             <!--Footer Column-->
@@ -404,7 +404,26 @@
 									<div class="logo">
                                     	<a href="index.html"><img src="images/costa-azalea-logo-white.png" alt="" /></a>
                                     </div>
-                                    <div class="text text-white text-left">Something that is rare, beautiful, timeless, and crafted on a commitment to excellence, innovation</div>
+
+                                    <!--Footer Column-->
+		                            <div class="footer-column col-lg-12 col-md-12 col-sm-12 mt-4">
+		                                <div class="footer-widget links-widget">
+											<div class="widget-content">
+												<ul class="list list-flex">
+		                                        	<li><a href="index.html">Home</a></li>
+		                                        	<li>|</li>
+		                                            <li><a href="about.html">About Us</a></li>
+		                                            <li>|</li>
+		                                            <li><a href="projects.html">Projects</a></li>
+		                                            <li>|</li>
+		                                            <li><a href="#">Locations</a></li>
+		                                            <li>|</li>
+		                                            <li><a href="contact.html">Contact Us</a></li>
+		                                        </ul>
+		                                    </div>
+										</div>
+									</div>
+
                                     <ul class="social-icons">
                                         <li><a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a></li>
                                         <li><a href="#" target="__blank"><span class="fab fa-linkedin-in"></span></a></li>
@@ -416,43 +435,29 @@
 						
 						</div>
 					</div>
-
-					<!--big column-->
-                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-                        <div class="row clearfix">
-
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-12 col-md-12 col-sm-12">
-                                <div class="footer-widget links-widget">
-                                	<h2>Quick links</h2>
-									<div class="widget-content">
-										<ul class="list">
-                                        	<li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="#">Locations</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-						
-						</div>
-					</div>
 					
 					
 					<!--big column-->
-                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                        <div class="row clearfix">
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <div class="row clearfix justify-content-end">
                         
                             <!--Footer Column-->
-							<div class="footer-column col-lg-12 col-md-12 col-sm-12">
-                                <div class="footer-widget links-widget">
-                                	<h2>Contact Us</h2>
+							<div class="footer-column col-lg-12 col-md-12 col-sm-12 mt-5">
+                                <div class="footer-widget links-widget" style="float: right">
 									<div class="widget-content">
 										<ul class="list">
-                                        	<li><a href="#"><i class="flaticon-pin"></i>&nbsp;&nbsp; Barangay Santa. Ana, Calatagan, Batangas</a></li>
-                                            <li><a href="#"><i class="flaticon-telephone"></i>&nbsp;&nbsp; (+63 2) 8836 5000 (+63 918) 836 5000</a></li>
+                                        	<li>
+                                        		<a href="#">
+                                        			<i class="flaticon-pin"></i>&nbsp;&nbsp; 
+                                        			Samal, Davao
+                                        		</a>
+                                        	</li>
+                                            <li>
+                                            	<a href="#">
+                                            		<i class="flaticon-telephone"></i>&nbsp;&nbsp; 
+                                            		(+63 2) 8836 5000 (+63 918) 836 5000
+                                            	</a>
+                                            </li>
                                         </ul>
                                     </div>
 								</div>
@@ -465,7 +470,7 @@
 			</div>
 
 			<!--Footer Bottom-->
-            <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+            <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="pull-left">
                     <div class="copyright">&copy; 2020 Copyright. Costa Azalea. All rights reserved.</div>
                 </div>
@@ -492,5 +497,6 @@
 	<script src="js/appear.js"></script>
 	<script src="js/scrollbar.js"></script>
 	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

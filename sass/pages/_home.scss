@@ -1,4 +1,4 @@
-// Home Page CSS Tree 
+ // Home Page CSS Tree 
 
 .page-section {
 
@@ -998,6 +998,11 @@ img{
 
 //  Links Widget */
 
+.list-flex {
+  display: flex; 
+  justify-content: space-between;
+}
+
 .links-widget{
   position:relative;
 }
@@ -1009,6 +1014,12 @@ img{
 .links-widget .list li{
   position:relative;
   margin-bottom:12px;
+}
+
+.links-widget .list-flex li{
+  display: flex;
+  position:relative;
+  margin: 0.3rem 0;
 }
 
 .links-widget .list li a {
@@ -7491,4 +7502,13 @@ h3.sub-heading-txt {
     height: 44px;
     border-radius: 50%;
     transform: translateY(-50%);
+}
+
+
+.flaticon-pin {
+  color: $color-primary;
+}
+
+.flaticon-telephone {
+  color: $color-primary;
 }
