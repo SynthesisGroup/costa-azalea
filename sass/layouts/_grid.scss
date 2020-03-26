@@ -1,4 +1,9 @@
 .grid-col-3 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) !important;
+	text-align: center;
+
+	.img-sm {
+		max-width: 10rem !important;
+	}
 }

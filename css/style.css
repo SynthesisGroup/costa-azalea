@@ -35,6 +35,25 @@ a:visited {
   text-decoration: none;
   outline: none; }
 
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  font-family: "Karla", sans-serif; }
+
+@media only screen and (max-width: 53.75em) {
+  .inner-column h3 {
+    font-family: "OSTD", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: #000; } }
+
 .btn-style-coral {
   position: relative;
   display: inline-block;
@@ -151,6 +170,20 @@ a:visited {
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 80px; }
+  @media only screen and (max-width: 48em) {
+    .call-to-action-section .text-description {
+      padding: 1.8rem !important;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem; } }
+  @media only screen and (max-width: 40em) {
+    .call-to-action-section .text-description {
+      padding: 1.8rem !important;
+      width: 100%;
+      margin-left: 0;
+      margin-top: -0.9rem;
+      margin-bottom: -0.2rem; } }
   @media only screen and (max-width: 35.5em) {
     .call-to-action-section .text-description {
       padding: 1.5rem !important;
@@ -173,6 +206,14 @@ a:visited {
 
 .call-to-action-section .custom-margin {
   top: 60px; }
+
+@media only screen and (max-width: 48em) {
+  .home-bg-overlay .home-hero-content .justify-content-center h2 {
+    margin-top: 0 !important; } }
+
+@media only screen and (max-width: 40em) {
+  .home-bg-overlay .home-hero-content .justify-content-center h2 {
+    margin-top: 0 !important; } }
 
 @media only screen and (max-width: 35.5em) {
   .home-bg-overlay .home-hero-content .justify-content-center h2 {
@@ -218,6 +259,9 @@ a:visited {
   letter-spacing: 0.01em;
   margin-bottom: 10px;
   letter-spacing: 2px; }
+  @media only screen and (max-width: 53.75em) {
+    .page-title h2 {
+      font-size: 60px !important; } }
   @media only screen and (max-width: 35.5em) {
     .page-title h2 {
       font-size: 30px !important; } }
@@ -1250,7 +1294,10 @@ a:visited {
 
 .grid-col-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr) !important; }
+  grid-template-columns: repeat(3, 1fr) !important;
+  text-align: center; }
+  .grid-col-3 .img-sm {
+    max-width: 10rem !important; }
 
 .page-section .margin-top {
   margin-top: 2rem; }
@@ -1283,6 +1330,14 @@ a:visited {
   position: relative;
   width: 100%;
   margin-top: -8rem; }
+  @media only screen and (max-width: 48em) {
+    .page-section .img-holder-home-beach {
+      position: relative;
+      margin-top: 0 !important;
+      width: 100%; } }
+  @media only screen and (max-width: 40em) {
+    .page-section .img-holder-home-beach {
+      margin-top: 0 !important; } }
   @media only screen and (max-width: 35.5em) {
     .page-section .img-holder-home-beach {
       margin-top: 0; } }
@@ -1293,6 +1348,14 @@ a:visited {
   border-radius: 1px;
   margin-top: -52rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) !important; }
+  @media only screen and (max-width: 48em) {
+    .page-section .card-explore-projects {
+      margin-top: -23rem !important;
+      padding: 1rem; } }
+  @media only screen and (max-width: 40em) {
+    .page-section .card-explore-projects {
+      margin-top: -20rem !important;
+      padding: 1rem; } }
   @media only screen and (max-width: 35.5em) {
     .page-section .card-explore-projects {
       margin-top: -16rem;
@@ -1642,6 +1705,12 @@ img {
   display: inline-block;
   max-width: 100%;
   height: auto; }
+
+.img-lg {
+  width: 100% !important; }
+
+.img-md {
+  max-width: 15rem !important; }
 
 .dropdown-toggle::after {
   display: none; }
@@ -2135,6 +2204,12 @@ img {
 
 .link-address {
   float: right !important; }
+  @media only screen and (max-width: 48em) {
+    .link-address {
+      float: left !important; } }
+  @media only screen and (max-width: 40em) {
+    .link-address {
+      float: left !important; } }
   @media only screen and (max-width: 35.5em) {
     .link-address {
       float: left !important; } }
@@ -2270,6 +2345,10 @@ img {
   font-weight: normal;
   color: #ffffff;
   font-size: 14px; }
+  @media only screen and (max-width: 40em) {
+    .main-footer .footer-bottom .copyright {
+      justify-content: center;
+      width: 100%; } }
 
 .main-footer .footer-bottom .purchase {
   position: relative;
@@ -2282,6 +2361,12 @@ img {
   width: 738px;
   height: 334px;
   opacity: 0.9; }
+  @media only screen and (max-width: 48em) {
+    .card-dark-overlay-center {
+      width: 100%; } }
+  @media only screen and (max-width: 40em) {
+    .card-dark-overlay-center {
+      width: 100%; } }
   @media only screen and (max-width: 35.5em) {
     .card-dark-overlay-center {
       width: 100%; } }
@@ -2293,6 +2378,9 @@ img {
   height: 419.03px;
   opacity: 0.9;
   padding: 20px 30px; }
+  @media only screen and (max-width: 40em) {
+    .card-dark-overlay-right {
+      width: 100%; } }
 
 .services-section {
   position: relative;
@@ -3368,6 +3456,9 @@ img {
   padding: 34px 0px 50px;
   text-align: center;
   background-color: #222222; }
+  @media only screen and (max-width: 35.5em) {
+    .service-block-three .inner-box .lower-content {
+      padding: 34px 0px 0px; } }
 
 .service-block-three .inner-box .lower-content h3 {
   position: relative;
@@ -4873,6 +4964,9 @@ p.heading-title {
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease; }
+  @media only screen and (max-width: 35.5em) {
+    .gallery-page-section .filters li {
+      width: 20%; } }
 
 .gallery-page-section .filters .filter.active,
 .gallery-page-section .filters .filter:hover {
@@ -6030,6 +6124,9 @@ p.heading-title {
   background: #936510;
   opacity: 0.8;
   z-index: 12; }
+  @media only screen and (max-width: 35.5em) {
+    .shop-item .inner-box .tag-banner {
+      top: 380px !important; } }
 
 .shop-item .inner-box .lower-content {
   position: relative;
@@ -7556,12 +7653,24 @@ h3.sub-heading-txt {
 
 .flickity-prev-next-button.next {
   right: -60px !important; }
+  @media only screen and (max-width: 48em) {
+    .flickity-prev-next-button.next {
+      right: -10px !important; } }
+  @media only screen and (max-width: 40em) {
+    .flickity-prev-next-button.next {
+      right: -10px !important; } }
   @media only screen and (max-width: 35.5em) {
     .flickity-prev-next-button.next {
       right: -20px !important; } }
 
 .flickity-prev-next-button.previous {
   left: -60px !important; }
+  @media only screen and (max-width: 48em) {
+    .flickity-prev-next-button.previous {
+      left: -10px !important; } }
+  @media only screen and (max-width: 40em) {
+    .flickity-prev-next-button.previous {
+      left: -10px !important; } }
   @media only screen and (max-width: 35.5em) {
     .flickity-prev-next-button.previous {
       left: -20px !important; } }

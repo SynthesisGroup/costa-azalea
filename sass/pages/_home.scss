@@ -41,6 +41,15 @@
         width: 100%; 
         margin-top: -8rem;
 
+        @media only screen and (max-width: $bp-tab-sm) {
+            position: relative; 
+            margin-top: 0 !important;
+             width: 100%; 
+        }
+
+        @media only screen and (max-width: $bp-mobile-lg) {
+          margin-top: 0 !important;
+        }
 
         @media only screen and (max-width: $bp-mobile-md) {
           margin-top: 0;
@@ -53,6 +62,16 @@
         border-radius: 1px; 
         margin-top: -52rem;
          box-shadow:0px 0px 20px rgba(0,0,0,0.10) !important;
+
+        @media only screen and (max-width: $bp-tab-sm) {
+            margin-top: -23rem !important;
+            padding: 1rem;
+        }
+
+         @media only screen and (max-width: $bp-mobile-lg) {
+            margin-top: -20rem !important;
+            padding: 1rem;
+        }
 
         @media only screen and (max-width: $bp-mobile-md) {
             margin-top: -16rem;
@@ -467,6 +486,15 @@ img{
   max-width:100%;
   height:auto;  
 }
+
+.img-lg {
+    width: 100% !important;
+}
+
+.img-md {
+    max-width: 15rem !important;
+}
+
 
 .dropdown-toggle::after{
   display: none;
@@ -1038,6 +1066,14 @@ img{
 .link-address {
     float: right !important;
 
+    @media only screen and (max-width: $bp-tab-sm) {
+        float: left !important;
+    }
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        float: left !important;
+    }
+
     @media only screen and (max-width: $bp-mobile-md) {
         float: left !important;
     }
@@ -1200,6 +1236,11 @@ img{
   font-weight: normal;
   color:$color-white;
   font-size:14px;
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        justify-content: center;
+        width: 100%
+    }
 }
 
 .main-footer .footer-bottom .purchase{
@@ -1216,6 +1257,14 @@ img{
   height: 334px; 
   opacity: 0.9;
 
+    @media only screen and (max-width: $bp-tab-sm) {
+        width: 100%
+    }
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+      width: 100%
+    }
+
     @media only screen and (max-width: $bp-mobile-md) {
       width: 100%
     }
@@ -1228,6 +1277,10 @@ img{
   height: 419.03px;
   opacity: 0.9;
   padding: 20px 30px;
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+      width: 100%
+    }
 }
 
 
@@ -2469,10 +2522,14 @@ img{
 }
 
 .service-block-three .inner-box .lower-content{
-  position:relative;
-  padding:34px 0px 50px;
-  text-align:center;
-  background-color:#222222;
+    position:relative;
+    padding:34px 0px 50px;
+    text-align:center;
+    background-color:#222222;
+
+    @media only screen and (max-width: $bp-mobile-md) {
+        padding:34px 0px 0px;
+    }
 }
 
 .service-block-three .inner-box .lower-content h3{
@@ -4277,22 +4334,26 @@ p.heading-title {
 }
 
 .gallery-page-section .filters li{
-  position: relative;
+    position: relative;
     color: #3e4346;
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
-  margin:0px 14px 5px;
-  display:inline-block;
-  background-color: #cbdddd;
-  width: 10%;
-  padding: 15px 15px;
-  box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
-  text-transform:capitalize;
+    margin:0px 14px 5px;
+    display:inline-block;
+    background-color: #cbdddd;
+    width: 10%;
+    padding: 15px 15px;
+    box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+    text-transform:capitalize;
     transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
+
+    @media only screen and (max-width: $bp-mobile-md) {
+        width: 20%;
+    }
 }
 
 .gallery-page-section .filters .filter.active,
@@ -5646,7 +5707,7 @@ p.heading-title {
 }
 
 .shop-item .inner-box .tag-banner{
-  position: absolute;
+    position: absolute;
     right: 20px;
     top: 320px;
     font-size: 13px;
@@ -5655,7 +5716,11 @@ p.heading-title {
     color: $color-white;
     background: #936510;
     opacity: 0.8;
-    z-index: 12
+    z-index: 12;
+
+    @media only screen and (max-width: $bp-mobile-md) {
+       top: 380px !important;
+    }
 }
 
 .shop-item .inner-box .lower-content{
@@ -7533,6 +7598,14 @@ h3.sub-heading-txt {
 .flickity-prev-next-button.next {
     right: -60px !important;
 
+    @media only screen and (max-width: $bp-tab-sm) {
+        right: -10px !important;
+    }
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        right: -10px !important;
+    }
+
     @media only screen and (max-width: $bp-mobile-md) {
         right: -20px !important;
     }
@@ -7540,6 +7613,14 @@ h3.sub-heading-txt {
 
 .flickity-prev-next-button.previous {
     left: -60px !important;
+
+     @media only screen and (max-width: $bp-tab-sm) {
+        left: -10px !important;
+    }
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        left: -10px !important;
+    }
 
     @media only screen and (max-width: $bp-mobile-md) {
         left: -20px !important;

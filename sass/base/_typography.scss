@@ -7,3 +7,15 @@ h1,h2,h3,h4,h5,h6 {
 	letter-spacing: -0.02em;
 	font-family: $font-karla;
 }
+
+@media only screen and (max-width: $bp-tab-pt) {
+    .inner-column h3 {
+		font-family: $font-ostd !important;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 24px;
+	    line-height: 38px;
+	    letter-spacing: 0.01em;
+	    color: #000;
+	}
+}

@@ -1,6 +1,15 @@
 // Banner Hero
 
 .home-bg-overlay .home-hero-content .justify-content-center h2 {
+
+    @media only screen and (max-width: $bp-tab-sm) {
+        margin-top: 0 !important;
+    }
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        margin-top: 0 !important;
+    }
+
      @media only screen and (max-width: $bp-mobile-md) {
         margin-top: 0 !important;
     }
@@ -49,7 +58,11 @@
     text-align: center;
     letter-spacing: 0.01em;
     margin-bottom: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        font-size: 60px !important;
+    }
 
     @media only screen and (max-width: $bp-mobile-md) {
         font-size: 30px !important;
