@@ -1,9 +1,15 @@
 .grid-col-3 {
+	padding: 5rem 0;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) !important;
 	text-align: center;
+	width: 100%;
 
 	.img-sm {
 		max-width: 10rem !important;
+
+		@media only screen and (max-width: $bp-mobile-lg) {
+            max-width: 5rem !important;
+        }
 	}
 }

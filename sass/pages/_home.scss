@@ -65,17 +65,17 @@
 
         @media only screen and (max-width: $bp-tab-sm) {
             margin-top: -23rem !important;
-            padding: 1rem;
+            padding: 0.5rem;
         }
 
-         @media only screen and (max-width: $bp-mobile-lg) {
-            margin-top: -20rem !important;
-            padding: 1rem;
+        @media only screen and (max-width: $bp-mobile-lg) {
+            margin-top: -15rem !important;
+            padding: 0.5rem;
         }
 
         @media only screen and (max-width: $bp-mobile-md) {
             margin-top: -16rem;
-            padding: 1rem;
+            padding: 0.5rem;
         }
     }
 

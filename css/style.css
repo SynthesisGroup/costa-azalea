@@ -1293,11 +1293,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #1e92a9; }
 
 .grid-col-3 {
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr) !important;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
   .grid-col-3 .img-sm {
     max-width: 10rem !important; }
+    @media only screen and (max-width: 40em) {
+      .grid-col-3 .img-sm {
+        max-width: 5rem !important; } }
 
 .page-section .margin-top {
   margin-top: 2rem; }
@@ -1351,15 +1356,15 @@ h1, h2, h3, h4, h5, h6 {
   @media only screen and (max-width: 48em) {
     .page-section .card-explore-projects {
       margin-top: -23rem !important;
-      padding: 1rem; } }
+      padding: 0.5rem; } }
   @media only screen and (max-width: 40em) {
     .page-section .card-explore-projects {
-      margin-top: -20rem !important;
-      padding: 1rem; } }
+      margin-top: -15rem !important;
+      padding: 0.5rem; } }
   @media only screen and (max-width: 35.5em) {
     .page-section .card-explore-projects {
       margin-top: -16rem;
-      padding: 1rem; } }
+      padding: 0.5rem; } }
 
 .dark-layout {
   background-color: #1a1a1a; }
