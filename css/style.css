@@ -151,6 +151,13 @@ a:visited {
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 80px; }
+  @media only screen and (max-width: 35.5em) {
+    .call-to-action-section .text-description {
+      padding: 1.5rem !important;
+      width: 100%;
+      margin-left: 0;
+      margin-top: -0.9rem;
+      margin-bottom: -0.2rem; } }
 
 .call-to-action-section .text-desc {
   position: relative;
@@ -166,6 +173,10 @@ a:visited {
 
 .call-to-action-section .custom-margin {
   top: 60px; }
+
+@media only screen and (max-width: 35.5em) {
+  .home-bg-overlay .home-hero-content .justify-content-center h2 {
+    margin-top: 0 !important; } }
 
 .page-title {
   position: relative;
@@ -207,6 +218,9 @@ a:visited {
   letter-spacing: 0.01em;
   margin-bottom: 10px;
   letter-spacing: 2px; }
+  @media only screen and (max-width: 35.5em) {
+    .page-title h2 {
+      font-size: 30px !important; } }
 
 .page-title p {
   position: relative;
@@ -219,6 +233,9 @@ a:visited {
   letter-spacing: 0.01em;
   color: #ffffff;
   margin-bottom: 10px; }
+  @media only screen and (max-width: 35.5em) {
+    .page-title p {
+      font-size: 16px !important; } }
 
 .page-section {
   position: relative;
@@ -269,6 +286,9 @@ a:visited {
 .main-footer .logo-widget .logo {
   position: relative;
   margin-bottom: 12px; }
+  @media only screen and (max-width: 35.5em) {
+    .main-footer .logo-widget .logo {
+      width: 100%; } }
 
 .main-footer .logo-widget .social-icons {
   position: relative; }
@@ -1228,6 +1248,10 @@ a:visited {
 .mobile-menu .social-links li a:hover {
   color: #1e92a9; }
 
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important; }
+
 .page-section .margin-top {
   margin-top: 2rem; }
 
@@ -1255,11 +1279,33 @@ a:visited {
   padding-top: 0.7rem;
   padding-bottom: 1rem; }
 
+.page-section .img-holder-home-beach {
+  position: relative;
+  width: 100%;
+  margin-top: -8rem; }
+  @media only screen and (max-width: 35.5em) {
+    .page-section .img-holder-home-beach {
+      margin-top: 0; } }
+
+.page-section .card-explore-projects {
+  padding: 3rem;
+  border: none;
+  border-radius: 1px;
+  margin-top: -52rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) !important; }
+  @media only screen and (max-width: 35.5em) {
+    .page-section .card-explore-projects {
+      margin-top: -16rem;
+      padding: 1rem; } }
+
 .dark-layout {
   background-color: #1a1a1a; }
 
 .logo-footer-bottom {
   margin-top: -10px; }
+  @media only screen and (max-width: 35.5em) {
+    .logo-footer-bottom {
+      margin-top: 1rem; } }
 
 .text-bold {
   position: relative;
@@ -2080,9 +2126,18 @@ img {
 .list-flex {
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 35.5em) {
+    .list-flex li {
+      margin: 0.3rem 0 !important; } }
 
 .links-widget {
   position: relative; }
+
+.link-address {
+  float: right !important; }
+  @media only screen and (max-width: 35.5em) {
+    .link-address {
+      float: left !important; } }
 
 .links-widget .list {
   position: relative; }
@@ -2227,6 +2282,9 @@ img {
   width: 738px;
   height: 334px;
   opacity: 0.9; }
+  @media only screen and (max-width: 35.5em) {
+    .card-dark-overlay-center {
+      width: 100%; } }
 
 .card-dark-overlay-right {
   background: #1E1E1E;
@@ -7169,7 +7227,7 @@ p.heading-title {
     font-family: "OSTD", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.01em;
     color: #000; }
@@ -7498,9 +7556,15 @@ h3.sub-heading-txt {
 
 .flickity-prev-next-button.next {
   right: -60px !important; }
+  @media only screen and (max-width: 35.5em) {
+    .flickity-prev-next-button.next {
+      right: -20px !important; } }
 
 .flickity-prev-next-button.previous {
   left: -60px !important; }
+  @media only screen and (max-width: 35.5em) {
+    .flickity-prev-next-button.previous {
+      left: -20px !important; } }
 
 .flickity-prev-next-button {
   top: 28% !important;

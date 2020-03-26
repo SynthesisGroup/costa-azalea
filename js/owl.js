@@ -3281,11 +3281,11 @@
 	    responsiveClass:true,
 		responsive:{
 		    0:{
-		        items:5,
+		        items:3,
 		        dots:true
 		    },
 		    600:{
-		        items:5,
+		        items:3,
 		        dots:true
 		    },
 		    1000:{

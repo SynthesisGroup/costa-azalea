@@ -13,6 +13,7 @@
 .main-footer .footer-widget{
     position:relative;
     margin-bottom:30px;
+
 }
 
 .main-footer .footer-widget h2{
@@ -42,10 +43,15 @@
 .main-footer .logo-widget .logo{
     position:relative;
     margin-bottom:12px;
+
+    @media only screen and (max-width: $bp-mobile-md) {
+      width: 100%
+    }
 }
 
 .main-footer .logo-widget .social-icons{
     position:relative;
+
 }
 
 .main-footer .logo-widget .social-icons li{
