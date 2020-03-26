@@ -3952,11 +3952,12 @@ p.heading-title {
 
 .card-full-height {
   position: relative;
-  padding: 50px 50px;
+  padding: 40px 40px;
   height: 100%;
   color: $color-white;
   background: #1E1E1E;
   opacity: 0.9;
+  border-radius: 0;
 }
 
 .lower-content h3.about-title {
