@@ -1282,7 +1282,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   line-height: 32px;
   font-size: 16px;
-  color: #1e92a9;
+  color: #000000 !important;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
