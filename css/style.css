@@ -1315,7 +1315,8 @@ h1, h2, h3, h4, h5, h6 {
     .grid-col-3 {
       display: grid;
       grid-template-columns: repeat(2, 1fr) !important;
-      width: 100%; } }
+      width: 100%;
+      padding-right: 0 !important; } }
   .grid-col-3 .img-sm {
     max-width: 10rem !important; }
     @media only screen and (max-width: 40em) {
@@ -1328,7 +1329,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff; }
   @media only screen and (max-width: 48em) {
     .page-section {
-      padding: 50px 0px 0px !important; } }
+      padding: 50px 0px 50px !important; } }
+  @media only screen and (max-width: 25.8em) {
+    .page-section {
+      padding: 50px 0px 50px !important; } }
   .page-section .margin-top {
     margin-top: 2rem; }
   .page-section .btn-style-coral {
@@ -1384,7 +1388,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0.5rem; } }
     @media only screen and (max-width: 40em) {
       .page-section .card-explore-projects {
-        margin-top: -19rem !important;
+        margin-top: -12rem !important;
         padding: 0.5rem; } }
     @media only screen and (max-width: 35.5em) {
       .page-section .card-explore-projects {
@@ -6173,7 +6177,7 @@ p.heading-title {
       z-index: 12; } }
   @media only screen and (max-width: 35.5em) {
     .shop-item .inner-box .tag-banner {
-      top: 330px !important; } }
+      top: 269px !important; } }
 
 .shop-item .inner-box .lower-content {
   position: relative;

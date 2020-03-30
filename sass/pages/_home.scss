@@ -6,7 +6,11 @@
       background-color: $color-white; 
 
       @media only screen and (max-width: $bp-tab-sm) {
-         padding: 50px 0px 0px !important;
+         padding: 50px 0px 50px !important;
+      } 
+
+      @media only screen and (max-width: $bp-mobile-sm) {
+         padding: 50px 0px 50px !important;
       } 
 
     .margin-top {
@@ -85,7 +89,7 @@
         }
 
         @media only screen and (max-width: $bp-mobile-lg) {
-            margin-top: -19rem !important;
+            margin-top: -12rem !important;
             padding: 0.5rem;
         }
 
@@ -5757,7 +5761,7 @@ p.heading-title {
     } 
 
     @media only screen and (max-width: $bp-mobile-md) {
-       top: 330px !important;
+       top: 269px !important;
     }
 }
 
