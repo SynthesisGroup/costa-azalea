@@ -136,14 +136,14 @@
 	}
 
 	.home-bg-overlay .home-hero-content {
-		margin-top: 6em !important;
+		margin-top: 10em !important;
 	}
 	
 }
 
 @media only screen and (min-width: 1024px) {
-	.home-bg-overlay .home-hero-content {
-		
+	.home-bg-overlay:before {
+		height: 100vh !important;
 	}
 
 	.home-bg-overlay:before{
@@ -221,14 +221,6 @@
 	.main-slider .slide{
 		padding-bottom:140px;
 		padding-top:120px;
-	}
-	
-	.page-title{
-		padding:70px 0px;
-	}
-
-	.page-title h1{
-		font-size: 34px;
 	}
 	
 	.main-menu .navigation > li{
@@ -317,7 +309,7 @@
 	}
 	
 	.call-to-action-section .text{
-		font-size:24px;
+		font-size:18px;
 	}
 	
 	.call-to-action-section{

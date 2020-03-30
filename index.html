@@ -10,6 +10,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
+<!-- Flickity Carousel -->
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <!-- Font Icon -->
@@ -97,7 +98,7 @@
     <!-- End Main Header -->
 
     <!--Page Title-->
-    <div class="page-title home-bg-overlay" style="background-image:url(images/home/home-hero.png); height: 100vh;">
+    <div class="page-title home-bg-overlay" style="background-image:url(images/home/home-hero.png); height: 100vh !important;">
     	<div class="auto-container home-hero-content">
     		<div class="row clearfix justify-content-center">
     			<div class="col-md-7">
@@ -138,7 +139,7 @@
 			</div>
 			<!-- Image Overlay -->
 			<img src="images/home/banner-holder-3.png" alt="" class="img-holder-home-beach">
-			<img src="images/home/banner-holder-5.png" alt="">
+			<img src="images/home/banner-holder-5.png" alt="" class="img-holder-wave">
 
 			<!-- Card Explore Projects -->
 			<div class="auto-container">
@@ -153,7 +154,7 @@
 								</div>
 								<img src="images/home/banner-holder-4.png" alt="" class="mt-4">
 								<div class="row clearfix mt-5">
-									<div class="col-md-6">
+									<div class="col-md-6 justify-center">
 										<div class="inner-column">
 											<h3 class="wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
 												Millennial Resorts
@@ -290,7 +291,7 @@
 						</div>
 					</div>
 					<div class="sec-title light col-xl-6 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<a href="news.html" type="button" class="theme-btn btn-style-coral pull-right"><span class="txt">View all news</span></a>
+						<a href="news.html" type="button" class="theme-btn btn-style-coral pull-right align-left"><span class="txt">View all news</span></a>
 					</div>
 				</div>
 				
@@ -353,7 +354,7 @@
 		<!-- End Costa Azalea: Full Swing Section -->
 
 		<!-- Costa Azalea: Gallery Page Section -->
-		<section class="gallery-page-section">
+		<section class="page-section">
 			<div class="auto-container">
 				<!-- Sec Title -->
 				<div class="row clearfix justify-content-center">
@@ -363,23 +364,22 @@
 						</div>
 					</div>
 
-					<div class="col-md-12 pt-5 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-
-						<!-- Flickity HTML init -->
-						<div class="owl-carousel owl-theme" id="owl-gallery">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-1.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-2.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-3.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-4.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-5.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-6.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-3.png" alt="">
-						    <img class="owl-lazy" data-src="images/gallery/gallery-4.png" alt="">
-						</div>
-						
-					</div>
 				</div>
 
+			</div>
+			<div class="pt-5 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+				<!-- Flickity HTML init -->
+				<div class="owl-carousel owl-theme" id="owl-gallery">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-1.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-2.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-3.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-4.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-5.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-6.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-3.png" alt="">
+				    <img class="owl-lazy" data-src="images/gallery/gallery-4.png" alt="">
+				</div>
+				
 			</div>
 		</section>
 		<!-- End Costa Azalea: Gallery Page Section -->
@@ -447,13 +447,13 @@
 										<ul class="list">
                                         	<li>
                                         		<a href="#">
-                                        			<i class="flaticon-pin"></i>&nbsp;&nbsp; 
+                                        			<img src="images/icons/maps-and-flags 2.svg" alt="icon">&nbsp;&nbsp; 
                                         			Samal, Davao
                                         		</a>
                                         	</li>
                                             <li>
                                             	<a href="#">
-                                            		<i class="flaticon-telephone"></i>&nbsp;&nbsp; 
+                                            		<img src="images/icons/phone 1.svg" alt="icon">&nbsp;&nbsp; 
                                             		(+63 2) 8836 5000 (+63 918) 836 5000
                                             	</a>
                                             </li>
@@ -496,6 +496,7 @@
 	<script src="js/appear.js"></script>
 	<script src="js/scrollbar.js"></script>
 	<script src="js/script.js"></script>
+	<!-- Flickity Carousel JS -->
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

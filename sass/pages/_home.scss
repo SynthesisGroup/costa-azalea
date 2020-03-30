@@ -1,6 +1,13 @@
  // Home Page CSS Tree 
 
 .page-section {
+      position: relative;
+      padding: 100px 0px 0px !important;
+      background-color: $color-white; 
+
+      @media only screen and (max-width: $bp-tab-sm) {
+         padding: 50px 0px 0px !important;
+      } 
 
     .margin-top {
         margin-top: 2rem;
@@ -36,8 +43,13 @@
         padding-bottom: 1rem;
     }
 
+    .img-holder-wave {
+      background-size: cover;
+    }
+
     .img-holder-home-beach {
-        position: relative; 
+        position: relative;
+        background-size: cover; 
         width: 100%; 
         margin-top: -8rem;
 
@@ -63,13 +75,17 @@
         margin-top: -52rem;
          box-shadow:0px 0px 20px rgba(0,0,0,0.10) !important;
 
+        @media only screen and (max-width: 1080px) {
+          margin-top: -40rem !important;
+        }
+
         @media only screen and (max-width: $bp-tab-sm) {
             margin-top: -23rem !important;
             padding: 0.5rem;
         }
 
         @media only screen and (max-width: $bp-mobile-lg) {
-            margin-top: -15rem !important;
+            margin-top: -19rem !important;
             padding: 0.5rem;
         }
 
@@ -77,6 +93,11 @@
             margin-top: -16rem;
             padding: 0.5rem;
         }
+    }
+
+    .inner-column h3 {
+      font-family: $font-ostd !important;
+      color: $color-black !important;
     }
 
 }
@@ -3965,11 +3986,13 @@ p.heading-title {
   font-family: $font-ostd;
   font-style: normal;
   font-weight: normal;
-  font-size: 42px;
-  line-height: 105%;
+  font-size: 34px;
+  line-height: 41px;
   letter-spacing: 0.01em;
   color: #000000;
   padding-bottom: 20px;
+  
+
 }
 
 .about-page-section  .service-block-three .inner-box .image a:before{
@@ -4353,7 +4376,7 @@ p.heading-title {
     -o-transition: all 300ms ease;
 
     @media only screen and (max-width: $bp-mobile-md) {
-        width: 26%;
+        width: 23%;
     }
 }
 
@@ -4952,6 +4975,7 @@ p.heading-title {
   display:inline-block;
   line-height:40px;
   height:43px;
+  font-family: $font-karla !important;
   font-size:18px;
   min-width:43px;
   color:#000;
@@ -5719,8 +5743,21 @@ p.heading-title {
     opacity: 0.8;
     z-index: 12;
 
+    @media only screen and (max-width: $bp-tab-sm) {
+       position: absolute;
+      right: 20px;
+      top: 191px;
+      font-size: 12px;
+      line-height: 24px;
+      padding: 3px 19px 3px 19px;
+      color: $color-white;
+      background: #936510;
+      opacity: 0.8;
+      z-index: 12;
+    } 
+
     @media only screen and (max-width: $bp-mobile-md) {
-       top: 380px !important;
+       top: 330px !important;
     }
 }
 
@@ -7275,6 +7312,10 @@ p.heading-title {
 
 
 @media only screen and (min-width: 1024px) {
+  .padding-left {
+    margin-left: -12rem;
+  }
+
   .rs-mobile {
     margin-top: auto;
   }
@@ -7582,7 +7623,7 @@ h3.sub-heading-txt {
 // Flickity Button Carousel
 
 .flickity-button {
-    position: absolute;
+    position: relative;
     background: #ef883d !important;
     border: none;
     color: $color-white !important;
@@ -7590,7 +7631,7 @@ h3.sub-heading-txt {
 
 .flickity-prev-next-button .flickity-button-icon {
     position: absolute;
-    left: 31% !important;
+    left: 33% !important;
     top: 33% !important;
     width: 30% !important;
     height: 30% !important;
@@ -7598,6 +7639,10 @@ h3.sub-heading-txt {
 
 .flickity-prev-next-button.next {
     right: -60px !important;
+
+    @media only screen and (max-width: $bp-desktop-lg) {
+        right: -9px !important;
+    }
 
     @media only screen and (max-width: $bp-tab-sm) {
         right: -10px !important;
@@ -7608,12 +7653,16 @@ h3.sub-heading-txt {
     }
 
     @media only screen and (max-width: $bp-mobile-md) {
-        right: -20px !important;
+        right: -7px !important;
     }
 }
 
 .flickity-prev-next-button.previous {
     left: -60px !important;
+
+    @media only screen and (max-width: $bp-desktop-lg) {
+        left: -9px !important;
+    }
 
      @media only screen and (max-width: $bp-tab-sm) {
         left: -10px !important;
@@ -7624,7 +7673,7 @@ h3.sub-heading-txt {
     }
 
     @media only screen and (max-width: $bp-mobile-md) {
-        left: -20px !important;
+        left: -7px !important;
     }
 }
 
@@ -7643,4 +7692,22 @@ h3.sub-heading-txt {
 
 .flaticon-telephone {
   color: $color-primary;
+}
+
+@media only screen and (max-width: $bp-tab-pt) {
+    .page-section .sec-title .align-left {
+      float: left !important;
+    }
+
+    .page-section .justify-center .inner-column h3{
+      text-align: center !important;
+    }
+
+    .page-section .justify-center p {
+      text-align: center !important;
+    }
+
+    .page-section .justify-center {
+      text-align: center !important;
+    }
 }

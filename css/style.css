@@ -207,9 +207,13 @@ h1, h2, h3, h4, h5, h6 {
 .call-to-action-section .custom-margin {
   top: 60px; }
 
+@media only screen and (max-width: 64em) {
+  .home-bg-overlay .home-hero-content .justify-content-center h2 {
+    margin-top: 1rem !important; } }
+
 @media only screen and (max-width: 48em) {
   .home-bg-overlay .home-hero-content .justify-content-center h2 {
-    margin-top: 0 !important; } }
+    margin-top: 5rem !important; } }
 
 @media only screen and (max-width: 40em) {
   .home-bg-overlay .home-hero-content .justify-content-center h2 {
@@ -1318,67 +1322,77 @@ h1, h2, h3, h4, h5, h6 {
       .grid-col-3 .img-sm {
         max-width: 5rem !important; } }
 
-.page-section .margin-top {
-  margin-top: 2rem; }
-
-.page-section .btn-style-coral {
-  margin-top: 2rem; }
-
-.page-section .lower-content .news-title a {
-  font-family: "OSTD", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff; }
-
-.page-section .lower-content .news-title::hover {
-  color: #ef883d !important; }
-
-.page-section .lower-content .news-excerpt {
-  font-family: "Karla", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-  padding-top: 0.7rem;
-  padding-bottom: 1rem; }
-
-.page-section .img-holder-home-beach {
+.page-section {
   position: relative;
-  width: 100%;
-  margin-top: -8rem; }
+  padding: 100px 0px 0px !important;
+  background-color: #ffffff; }
   @media only screen and (max-width: 48em) {
-    .page-section .img-holder-home-beach {
-      position: relative;
-      margin-top: 0 !important;
-      width: 100%; } }
-  @media only screen and (max-width: 40em) {
-    .page-section .img-holder-home-beach {
-      margin-top: 0 !important; } }
-  @media only screen and (max-width: 35.5em) {
-    .page-section .img-holder-home-beach {
-      margin-top: 0; } }
-
-.page-section .card-explore-projects {
-  padding: 3rem;
-  border: none;
-  border-radius: 1px;
-  margin-top: -52rem;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) !important; }
-  @media only screen and (max-width: 48em) {
-    .page-section .card-explore-projects {
-      margin-top: -23rem !important;
-      padding: 0.5rem; } }
-  @media only screen and (max-width: 40em) {
-    .page-section .card-explore-projects {
-      margin-top: -15rem !important;
-      padding: 0.5rem; } }
-  @media only screen and (max-width: 35.5em) {
-    .page-section .card-explore-projects {
-      margin-top: -16rem;
-      padding: 0.5rem; } }
+    .page-section {
+      padding: 50px 0px 0px !important; } }
+  .page-section .margin-top {
+    margin-top: 2rem; }
+  .page-section .btn-style-coral {
+    margin-top: 2rem; }
+  .page-section .lower-content .news-title a {
+    font-family: "OSTD", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff; }
+  .page-section .lower-content .news-title::hover {
+    color: #ef883d !important; }
+  .page-section .lower-content .news-excerpt {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem; }
+  .page-section .img-holder-wave {
+    background-size: cover; }
+  .page-section .img-holder-home-beach {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    margin-top: -8rem; }
+    @media only screen and (max-width: 48em) {
+      .page-section .img-holder-home-beach {
+        position: relative;
+        margin-top: 0 !important;
+        width: 100%; } }
+    @media only screen and (max-width: 40em) {
+      .page-section .img-holder-home-beach {
+        margin-top: 0 !important; } }
+    @media only screen and (max-width: 35.5em) {
+      .page-section .img-holder-home-beach {
+        margin-top: 0; } }
+  .page-section .card-explore-projects {
+    padding: 3rem;
+    border: none;
+    border-radius: 1px;
+    margin-top: -52rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) !important; }
+    @media only screen and (max-width: 1080px) {
+      .page-section .card-explore-projects {
+        margin-top: -40rem !important; } }
+    @media only screen and (max-width: 48em) {
+      .page-section .card-explore-projects {
+        margin-top: -23rem !important;
+        padding: 0.5rem; } }
+    @media only screen and (max-width: 40em) {
+      .page-section .card-explore-projects {
+        margin-top: -19rem !important;
+        padding: 0.5rem; } }
+    @media only screen and (max-width: 35.5em) {
+      .page-section .card-explore-projects {
+        margin-top: -16rem;
+        padding: 0.5rem; } }
+  .page-section .inner-column h3 {
+    font-family: "OSTD", sans-serif !important;
+    color: #000000 !important; }
 
 .dark-layout {
   background-color: #1a1a1a; }
@@ -4676,8 +4690,8 @@ p.heading-title {
   font-family: "OSTD", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 42px;
-  line-height: 105%;
+  font-size: 34px;
+  line-height: 41px;
   letter-spacing: 0.01em;
   color: #000000;
   padding-bottom: 20px; }
@@ -4986,7 +5000,7 @@ p.heading-title {
   -o-transition: all 300ms ease; }
   @media only screen and (max-width: 35.5em) {
     .gallery-page-section .filters li {
-      width: 26%; } }
+      width: 23%; } }
 
 .gallery-page-section .filters .filter.active,
 .gallery-page-section .filters .filter:hover {
@@ -5493,6 +5507,7 @@ p.heading-title {
   display: inline-block;
   line-height: 40px;
   height: 43px;
+  font-family: "Karla", sans-serif !important;
   font-size: 18px;
   min-width: 43px;
   color: #000;
@@ -6144,9 +6159,21 @@ p.heading-title {
   background: #936510;
   opacity: 0.8;
   z-index: 12; }
+  @media only screen and (max-width: 48em) {
+    .shop-item .inner-box .tag-banner {
+      position: absolute;
+      right: 20px;
+      top: 191px;
+      font-size: 12px;
+      line-height: 24px;
+      padding: 3px 19px 3px 19px;
+      color: #ffffff;
+      background: #936510;
+      opacity: 0.8;
+      z-index: 12; } }
   @media only screen and (max-width: 35.5em) {
     .shop-item .inner-box .tag-banner {
-      top: 380px !important; } }
+      top: 330px !important; } }
 
 .shop-item .inner-box .lower-content {
   position: relative;
@@ -7421,6 +7448,8 @@ p.heading-title {
     margin-top: 10px; } }
 
 @media only screen and (min-width: 1024px) {
+  .padding-left {
+    margin-left: -12rem; }
   .rs-mobile {
     margin-top: auto; }
   .content h2 {
@@ -7659,20 +7688,23 @@ h3.sub-heading-txt {
   margin-top: 2rem; }
 
 .flickity-button {
-  position: absolute;
+  position: relative;
   background: #ef883d !important;
   border: none;
   color: #ffffff !important; }
 
 .flickity-prev-next-button .flickity-button-icon {
   position: absolute;
-  left: 31% !important;
+  left: 33% !important;
   top: 33% !important;
   width: 30% !important;
   height: 30% !important; }
 
 .flickity-prev-next-button.next {
   right: -60px !important; }
+  @media only screen and (max-width: 79.3em) {
+    .flickity-prev-next-button.next {
+      right: -9px !important; } }
   @media only screen and (max-width: 48em) {
     .flickity-prev-next-button.next {
       right: -10px !important; } }
@@ -7681,10 +7713,13 @@ h3.sub-heading-txt {
       right: -10px !important; } }
   @media only screen and (max-width: 35.5em) {
     .flickity-prev-next-button.next {
-      right: -20px !important; } }
+      right: -7px !important; } }
 
 .flickity-prev-next-button.previous {
   left: -60px !important; }
+  @media only screen and (max-width: 79.3em) {
+    .flickity-prev-next-button.previous {
+      left: -9px !important; } }
   @media only screen and (max-width: 48em) {
     .flickity-prev-next-button.previous {
       left: -10px !important; } }
@@ -7693,7 +7728,7 @@ h3.sub-heading-txt {
       left: -10px !important; } }
   @media only screen and (max-width: 35.5em) {
     .flickity-prev-next-button.previous {
-      left: -20px !important; } }
+      left: -7px !important; } }
 
 .flickity-prev-next-button {
   top: 28% !important;
@@ -7707,6 +7742,16 @@ h3.sub-heading-txt {
 
 .flaticon-telephone {
   color: #ef883d; }
+
+@media only screen and (max-width: 53.75em) {
+  .page-section .sec-title .align-left {
+    float: left !important; }
+  .page-section .justify-center .inner-column h3 {
+    text-align: center !important; }
+  .page-section .justify-center p {
+    text-align: center !important; }
+  .page-section .justify-center {
+    text-align: center !important; } }
 
 @font-face {
   font-family: 'Karla';
